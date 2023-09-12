@@ -130,13 +130,24 @@ nav {
 }
 
 .hero {
-  background-color: var(--secondary-background-color-dark);
+  /* background-color: var(--secondary-background-color-dark); */
   color: var(--main-text-color-light);
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero-background-img.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: auto;
+  background-size: cover;
 }
 
-.hero > .container {
+.hero-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
