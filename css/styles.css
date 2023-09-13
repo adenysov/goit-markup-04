@@ -22,6 +22,7 @@
   --secondary-button-hover-background-color: #404bbf;
   --secondary-button-main-text-color: #4d5ae5;
   --portfolio-list-item-border-color: #e7e9fc;
+  --main-customers-icon-color: #8e8f99;
 }
 
 /* BASE STYLES */
@@ -79,6 +80,9 @@ img {
 
 .header {
   border-bottom: 1px solid var(--main-header-border-color);
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header > .container {
@@ -190,6 +194,17 @@ nav {
 .overview-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  background-color: var(--main-background-color-medium);
+  margin-bottom: 8px;
 }
 
 .doing-section {
@@ -420,4 +435,37 @@ nav {
   padding: 32px 16px;
   border: 1px solid var(--portfolio-list-item-border-color);
   border-top: none;
+}
+
+.customers-section {
+  margin-top: 120px;
+}
+
+.customers-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.11em;
+  margin-bottom: 80px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+.customers-list-item {
+  border: 1px solid var(--main-customers-icon-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  padding: 32px 16px;
+}
+
+.customers-link {
+  color: red;
 }
