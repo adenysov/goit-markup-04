@@ -105,6 +105,7 @@ img {
 .header-link:focus,
 .header-link:hover {
   color: var(--main-header-link-active-focus-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 nav {
@@ -132,6 +133,7 @@ nav {
 .address-link:focus,
 .address-link:hover {
   color: var(--main-header-link-active-focus-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
@@ -500,6 +502,7 @@ nav {
 .current {
   color: #404bbf;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current::after {
