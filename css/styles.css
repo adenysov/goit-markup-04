@@ -440,7 +440,8 @@ nav {
 }
 
 .customers-section {
-  margin-top: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .customers-title {
@@ -456,7 +457,6 @@ nav {
 .customers-list {
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 .customers-list-item {
   border: 1px solid var(--main-customers-icon-color);
@@ -470,7 +470,7 @@ nav {
 }
 
 .customers-link {
-  color: red;
+  fill: currentColor;
 }
 
 .team-social-list {
