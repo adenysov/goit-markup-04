@@ -447,7 +447,8 @@ nav {
   font-weight: 700;
   text-transform: capitalize;
   line-height: 1.11em;
-  margin-bottom: 80px;
+  margin-bottom: 72px;
+  color: var(--secondary-text-color-dark);
 }
 
 .customers-list {
