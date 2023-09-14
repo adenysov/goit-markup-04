@@ -592,18 +592,6 @@ nav {
   background-color: var(--main-social-icons-focus-hover-color);
 }
 
-.portfolio-card-list:focus,
-.portfolio-card-list:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-/*
-.portfolio-features-list {
-  display: block;
-}
-*/
-
 .customers-list-items {
   height: 88px;
 }
@@ -614,4 +602,14 @@ nav {
   color: var(--secondary-button-hover-background-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-card-list-link:hover,
+.portfolio-card-list-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-card-list-link {
+  display: block;
 }
