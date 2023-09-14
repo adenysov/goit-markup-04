@@ -642,6 +642,7 @@ nav {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card-list-link:hover .portfolio-list-item-owerlay-text {
+.portfolio-card-list-link:hover .portfolio-list-item-owerlay-text,
+.portfolio-card-list-link:focus .portfolio-list-item-owerlay-text {
   transform: translateY(0%);
 }
