@@ -713,7 +713,7 @@ nav {
   border: none;
 }
 
-.modal-button:focus {
+.modal-btn:focus {
   fill: #ffffff;
   background-color: var(--secondary-button-hover-background-color);
   border: none;
