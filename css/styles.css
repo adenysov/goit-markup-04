@@ -608,8 +608,8 @@ nav {
   height: 88px;
 }
 
-.customers-link:focus,
-.customers-link:hover {
+.customers-list-item:focus,
+.customers-list-item:hover {
   border-color: var(--secondary-button-hover-background-color);
   color: var(--secondary-button-hover-background-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
