@@ -355,6 +355,10 @@ nav {
   padding: 12px 24px;
   border-radius: 4px;
   border: 1px solid var(--secondary-button-border-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-main:focus,
@@ -424,6 +428,13 @@ nav {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+}
+
+.portfolio-card-list-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-card-list-title {
