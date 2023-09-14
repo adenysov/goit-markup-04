@@ -26,6 +26,7 @@
   --main-social-icons-color: #f4f4fd;
   --main-icons-background-color: #4d5ae5;
   --footer-social-icons-focus-hover-color: #31d0aa;
+  --main-social-icons-focus-hover-color: #404bbf;
 }
 
 /* BASE STYLES */
@@ -583,27 +584,7 @@ nav {
   fill: var(--main-social-icons-color);
 }
 
-/*
-.team-social-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.team-social-links-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 100%;
-  border: 1px solid var(--main-button-background-color);
-  width: 40px;
-  height: 40px;
-  background-color: var(--main-button-background-color);
-  margin-bottom: 32px;
-}
-*/
-
-.team-pictue {
-  padding-top: 32px;
-  padding-bottom: 32px;
+.team-social-links-icons:focus,
+.team-social-links-icons:hover {
+  background-color: var(--main-social-icons-focus-hover-color);
 }
